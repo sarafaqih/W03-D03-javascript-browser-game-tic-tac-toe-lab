@@ -1,0 +1,32 @@
+body {
+    background-color: gainsboro;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+      }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+  }
+  h1,h2{
+    text-align: center;
+  }
+  section{
+    margin: 30px auto;
+  }
+  button{
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    }
